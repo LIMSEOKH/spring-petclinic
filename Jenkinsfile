@@ -12,7 +12,6 @@ pipeline {
                 echo 'Git clone'
                 git url: 'https://github.com/LIMSEOKH/spring-petclinic.git',
                     branch: 'efficient-webjars'
-
             }
         }
     }
