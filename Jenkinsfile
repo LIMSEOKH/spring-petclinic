@@ -7,7 +7,7 @@ pipeline {
   }
   // 환경 설정
   environment {
-      AWS_CREDENTIAL_NAME = "AWSCredentials"
+      AWS_CREDENTIAL_NAME = "std08"
       REGION = "ap-northeast-2"
       DOCKER_IMAGE_NAME = "std08-spring-petclinic"
       ECR_REPOSITORY = "257307634175.dkr.ecr.ap-northeast-2.amazonaws.com"
